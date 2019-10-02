@@ -46,13 +46,13 @@ Los objetos son clave para comprender *la tecnología orientada a objetos*. Los 
 
 Los objetos de software son conceptualmente similares a los objetos del mundo real: también consisten en estado y comportamiento relacionado ( Figura 2.1 ). Un objeto almacena su estado en *campos (fields)* (variables en algunos lenguajes de programación) y expone su comportamiento a través de *métodos* (funciones en algunos lenguajes de programación). Los métodos operan en el estado interno de un objeto y sirven como el mecanismo principal para la comunicación de objeto a objeto. El acto de ocultar el estado interno y requerir que toda la interacción se realice a través de los métodos de un objeto se conoce como *encapsulación de datos*, un principio fundamental de la programación orientada a objetos.
 
-<img src="/imgDocumentacion/concepts-object.gif" />
+<img src="https://github.com/adolfodelarosajava/JavaTutorial/blob/master/imgDocumenacion/concepts-object.gif" />
 
 **Figura 2.1** Un objeto de software
 
 Por ejemplo, consideremos una bicicleta ( Figura 2.2 ). Al atribuir el estado (velocidad actual, cadencia actual del pedal y marcha actual) y proporcionar métodos para cambiar ese estado, el objeto mantiene el control de cómo el mundo exterior puede usarlo. Por ejemplo, si la bicicleta solo tiene seis marchas, un método para cambiar de marchas podría rechazar cualquier valor que sea menor que uno o mayor que seis.
 
-<img src="/imgDocumentacion/concepts-bicycleObject.gif" />
+<img src="https://github.com/adolfodelarosajava/JavaTutorial/blob/master/imgDocumenacion/concepts-bicycleObject.gif" />
 
 **Figura 2.2** Una bicicleta modelada como un objeto de software
 
